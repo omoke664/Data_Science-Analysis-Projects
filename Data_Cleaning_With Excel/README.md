@@ -12,7 +12,7 @@ Below is a visual comparison of the dataset:
 
 | Before Cleaning | After Cleaning |
 |------------------|-----------------|
-| ![Before Cleaning](Before_cleaning.PNG) | ![After Cleaning](After_cleaning.PNG) |
+| ![Before Cleaning](Before_cleaning.png) | ![After Cleaning](After_cleaning.png) |
 
 ---
 
