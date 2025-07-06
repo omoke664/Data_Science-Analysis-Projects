@@ -41,12 +41,16 @@ to remove extra white spaces and capitalize names properly.
 - Replaced blanks with `"NA"`.
 
 ### 6. Ensured Correct Data Types  
-| Column     | Data Type    |
-|------------|--------------|
-| Date       | Date         |
-| Client     | General/Text |
-| Contact    | General/Text |
-| Department | General/Text |
+| Column       | Data Type    |
+|--------------|--------------|
+| Date         | Date         |
+| Client       | General/Text |
+| Contact      | General/Text |
+| Department   | General/Text |
+| Payment      | General/Text |
+| Revenue      | Currency     |
+| Profit       | Currency     |
+| Profit Margin| Currency     |
 
 ### 7. Calculated `Profit Margin` with Error Handling  
 - Some `Revenue` values were null.  
