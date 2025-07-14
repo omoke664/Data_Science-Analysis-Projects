@@ -39,6 +39,8 @@ This dashboard provides a high-level, aggregated view of the entire company. Key
 *   Salary Distribution by Age
 *   Average Salary by Gender, Department, and Rating
 
+![Company Dashboard](company_dashboard.png)
+
 ### Departmental Dashboard
 This interactive dashboard offers a granular view of a specific department selected by the user. It showcases:
 *   Total Employees in the department
@@ -48,6 +50,18 @@ This interactive dashboard offers a granular view of a specific department selec
 *   Salary Distribution by Gender
 *   Employee Performance Chart
 *   Gender Distribution Chart
+
+![Departmental Dashboard](departmental_dashboard.png)
+
+## Analysis Snapshots
+
+Below are snapshots of the detailed analysis sheets:
+
+**Company Analysis**
+![Company Analysis](company_analysis.png)
+
+**Summary Statistics**
+![Summary Statistics](summary_statistics.png)
 
 ## File Structure
 
