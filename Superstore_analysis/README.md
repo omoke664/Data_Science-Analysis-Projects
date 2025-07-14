@@ -16,7 +16,6 @@ The dashboard prominently displays the following high-level metrics:
 - **Total Sales:** The total revenue generated from all sales.
 - **Total Quantity:** The total number of products sold.
 - **Total Profit:** The total profit earned.
-- **Profit Margin (%):** The overall profitability percentage.
 
 ## Detailed Analysis
 
