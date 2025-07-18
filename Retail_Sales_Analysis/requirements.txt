@@ -1,0 +1,15 @@
+# Core data analysis
+pandas        # Data manipulation and analysis
+numpy         # Numerical operations
+
+# Visualization
+matplotlib    # Static charts and plots
+plotly        # Interactive charts and dashboards
+
+
+# Time series and forecasting
+statsmodels   # Statistical modeling and ARIMA
+prophet       # Advanced time series forecasting (Facebook Prophet)
+
+# Notebook environment
+jupyter       # Interactive analysis and reporting 

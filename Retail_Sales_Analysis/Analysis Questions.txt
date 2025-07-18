@@ -1,0 +1,87 @@
+**Project Guide: Optimizing Retail & Warehouse Sales Performance**
+
+This document is a step-by-step guide to help you conduct a comprehensive analysis of the retail and warehouse sales data. Follow the phases and questions below to build your project from the ground up.
+
+---
+
+### **1. Business Problem & Project Goal**
+
+**Business Problem:** A beverage distributor wants to understand the key drivers of sales across its different channels (retail, warehouse, and transfers) to optimize revenue, inventory, and supplier relationships.
+
+**Project Goal:** To analyze the 2017-2020 sales data to identify key trends, insights, and opportunities, culminating in a set of actionable recommendations for the business.
+
+---
+
+### **Phase 1: Descriptive Analysis - What Happened?**
+
+**Objective:** Get a high-level understanding of the dataset and establish baseline performance metrics.
+
+**Part A: Overall Sales Performance**
+
+1.  **Loading and Preparing Data:**
+    *   **Question:** How can I load the large CSV file efficiently?
+    *   **Hint:** Use `pd.read_csv` with the `chunksize` parameter in a `for` loop to avoid memory errors.
+    *   **Question:** What are the column names and their data types?
+    *   **Hint:** Inside your loop, print `chunk.columns` and `chunk.dtypes` for the first chunk.
+    *   **Question:** How can I create a single `TOTAL SALES` figure for each transaction?
+    *   **Hint:** In each chunk, create a new column: `chunk['TOTAL SALES'] = chunk['RETAIL SALES'] + chunk['RETAIL TRANSFERS'] + chunk['WAREHOUSE SALES']`.
+
+2.  **Calculating Total Sales per Year:**
+    *   **Question:** How do I calculate the total sales for each year across all chunks?
+    *   **Hint:** Initialize an empty dictionary. In your loop, group the chunk by `YEAR` and sum the `TOTAL SALES`. Then, add the results from the chunk to your dictionary.
+    *   **Output:** A summary showing the total sales for 2017, 2018, 2019, and 2020.
+
+3.  **Analyzing the Overall Sales Trend:**
+    *   **Question:** What was the sales trend from 2017-2020?
+    *   **Hint:** Create a line chart to visualize the total sales for each year. This is great for showing trends over time.
+    *   **Question:** How can I quantify this trend?
+    *   **Hint:** Calculate the Year-over-Year (YoY) growth rate using the `.pct_change()` method on your yearly sales data.
+    *   **Interpretation:** Describe the trend. Is it stable, growing, declining, or volatile? What do the numbers say about the business's health during this period?
+
+**Part B: Channel & Product Performance**
+
+1.  **Sales Breakdown by Channel:**
+    *   **Question:** Which sales channel is the most significant?
+    *   **Hint:** Calculate the sum of `RETAIL SALES`, `RETAIL TRANSFERS`, and `WAREHOUSE SALES` for the entire dataset.
+    *   **Question:** How can I visualize the contribution of each channel?
+    *   **Hint:** A bar chart or pie chart is effective for showing the percentage contribution of each channel to the total sales.
+
+2.  **Top Products & Suppliers:**
+    *   **Question:** Which products are the top sellers?
+    *   **Hint:** Group the data by `ITEM DESCRIPTION` and sum the `TOTAL SALES`. Then, sort the results to find the top 10 products.
+    *   **Question:** Who are the most valuable suppliers?
+    *   **Hint:** Group the data by `SUPPLIER` and sum the `TOTAL SALES`. Sort to find the top 10 suppliers.
+
+---
+
+### **Phase 2: Diagnostic Analysis - Why Did It Happen?**
+
+**Objective:** Investigate the "why" behind the trends observed in Phase 1.
+
+1.  **Investigating Sales Volatility:**
+    *   **Question:** What caused the significant sales drop in 2018 and the sharp increase in 2019?
+    *   **Hint:** For each year, analyze the sales by month. Did the drop happen over the whole year or in specific months? Also, compare the performance of the top 10 products/suppliers across these years. Did a major supplier stop selling in 2018?
+
+2.  **Seasonal Trends:**
+    *   **Question:** Are there clear seasonal patterns in sales?
+    *   **Hint:** Group the data by `MONTH` and sum the `TOTAL SALES`. A bar chart can show which months have the highest and lowest sales. Do this for the overall sales and for each product type (`ITEM TYPE`).
+    *   **Interpretation:** Do sales for "BEER" peak in the summer? Do "WINE" sales increase around the holidays?
+
+3.  **Channel-Specific Behavior:**
+    *   **Question:** Are certain products more likely to be sold through a specific channel?
+    *   **Hint:** For the top 10 products, calculate the percentage of their sales that come from each of the three channels. For example, what percentage of "Product X" sales are retail vs. warehouse?
+
+---
+
+### **Phase 3: Predictive & Prescriptive Analysis - What Will Happen & What Should We Do?**
+
+**Objective:** Use the insights from your analysis to forecast future performance and provide actionable recommendations.
+
+1.  **Sales Forecasting (Predictive):**
+    *   **Question:** What are the expected sales for the first quarter of the next year?
+    *   **Hint:** This is a more advanced step. You can try a simple forecasting method. For example, calculate the average sales for Q1 (Jan, Feb, Mar) across all years in your data to get a simple estimate.
+
+2.  **Strategic Recommendations (Prescriptive):**
+    *   **Channel Strategy:** Based on your analysis, which channel should the business focus on for which product types?
+    *   **Supplier Management:** Which supplier relationships should be prioritized for growth? Are there any underperforming suppliers to be concerned about?
+    *   **Inventory & Product Strategy:** Which products should the company ensure are always in stock, especially during peak seasons?
