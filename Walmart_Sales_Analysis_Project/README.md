@@ -117,7 +117,8 @@ The final deliverables include:
 - Average Basket Value  
 - Revenue YoY Trend  
 - Revenue by Payment Method  
-- Revenue by State  
+- Revenue by State
+  
 ![Executive Overview](executive_overview.png)
 
 ---
@@ -127,8 +128,9 @@ The final deliverables include:
 - Transactions per payment method  
 - Average revenue per customer  
 - Average sales per transaction  
-- Monthly revenue trend  
-![Sales Trends Dashboard](placeholder_dashboard_page2.png)
+- Monthly revenue trend
+  
+![Sales Trends Dashboard](sales_trends.png)
 
 ---
 
@@ -136,16 +138,18 @@ The final deliverables include:
 - Top products by revenue  
 - Product revenue & quantity comparison  
 - Product sales per department  
-- Average basket value and quantity per sale  
-![Products Dashboard](placeholder_dashboard_page3.png)
+- Average basket value and quantity per sale
+  
+![Products Dashboard](products.png)
 
 ---
 
 ### **Page 4: Geography**
 - Revenue and quantity by state  
 - Customer distribution by state  
-- Regional performance insights  
-![Geography Dashboard](placeholder_dashboard_page4.png)
+- Regional performance insights
+  
+![Geography Dashboard](geography.png)
 
 ---
 
@@ -153,16 +157,18 @@ The final deliverables include:
 - Active customers by day, week, month  
 - Customer payment method preferences  
 - Gender distribution  
-- Revenue and transactions per customer  
-![Customers Dashboard](placeholder_dashboard_page5.png)
+- Revenue and transactions per customer
+  
+![Customers Dashboard](customers.png)
 
 ---
 
 ### **Page 6: Employees**
 - Employee performance by revenue, quantity, and transactions  
 - Top employee per department  
-- Sales efficiency metrics  
-![Employees Dashboard](placeholder_dashboard_page6.png)
+- Sales efficiency metrics
+  
+![Employees Dashboard](employees.png)
 
 ---
 
@@ -192,7 +198,6 @@ The final deliverables include:
 - All employees generate around **$1M annual revenue**, showing tight performance consistency.  
 - Focus for improvement: **increase average basket value (ABV)** through upselling strategies.
 
-![Insights Snapshot](placeholder_insights_chart.png)
 
 ---
 
@@ -214,10 +219,10 @@ The final deliverables include:
 
 ## 💬 Contact
 
-**Author:** [Your Name]  
-**LinkedIn:** [Your LinkedIn URL]  
-**GitHub:** [Your GitHub Profile]  
-**Email:** [Your Email Address]
+**Author:** [Wesley Omoke]  
+**LinkedIn:** [[Wesley Omoke](https://www.linkedin.com/in/wesley-omoke-271954231/)]  
+**GitHub:** [omoke664]  
+**Email:** [omokeleywes@gmail.com]
 
 ---
 
@@ -225,5 +230,4 @@ The final deliverables include:
 
 This project was inspired by the goal of demonstrating **real-world business intelligence using SQL and Power BI** — transforming raw data into meaningful insights that drive smarter retail decisions.
 
-![Thank You](placeholder_thank_you_banner.png)
 
