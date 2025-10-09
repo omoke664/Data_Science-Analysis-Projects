@@ -1,6 +1,6 @@
 # 🛒 Walmart Sales Analysis
 
-![Project Banner](placeholder_project_banner.png)
+![Project Banner](logo.png)
 
 ## 📘 Executive Summary
 
