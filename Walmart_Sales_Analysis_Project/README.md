@@ -1,4 +1,4 @@
-# 🛒 Walmart Sales Analysis
+# Walmart Sales Analysis
 
 ![Project Banner](logo.png)
 
@@ -11,7 +11,7 @@ The objective was to derive **actionable business insights** and **data-driven r
 
 ---
 
-## 🧩 Business Problems
+##  Business Problems
 
 The analysis was guided by the following key business questions:
 
@@ -41,7 +41,7 @@ The analysis was guided by the following key business questions:
 
 ---
 
-## 🎯 Expected Outputs
+##  Expected Outputs
 
 The final deliverables include:
 - **Interactive Power BI Dashboards** with:
@@ -60,7 +60,7 @@ The final deliverables include:
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 1. **Data Source:**  
    Data was stored in the **Walmart PostgreSQL database**, comprising:
@@ -92,7 +92,7 @@ The final deliverables include:
 
 ---
 
-## 🧠 Skills & Tools Demonstrated
+##  Skills & Tools Demonstrated
 
 | Category | Tools / Skills |
 |-----------|----------------|
@@ -217,7 +217,7 @@ The final deliverables include:
 
 ---
 
-## 💬 Contact
+##  Contact
 
 **Author:** [Wesley Omoke]  
 **LinkedIn:** [[Wesley Omoke](https://www.linkedin.com/in/wesley-omoke-271954231/)]  
